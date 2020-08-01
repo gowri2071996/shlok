@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    android:id="@+id/viewList"
+    android:background="@drawable/bg_menugrid"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/tvSchId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="@font/appfont"
+        android:padding="5dp"
+        android:text="dcdbcljdcddncd"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/appfont"
+        android:padding="5dp"
+        android:text="dfdfdffffffffffffffffffffff"
+        android:textColor="@color/textBlue"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/appfont"
+        android:padding="5dp"
+        android:text="bcvskcnsclscmcdcd"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/tvchk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/appfont"
+        android:padding="5dp"
+        android:text="bcvskcnsclscmcdcd"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvData" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
